@@ -1,0 +1,46 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+  > div {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#app {
+  background-color: lightskyblue;
+  color: white;
+  // https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+#table {
+  display: relative;
+  border: 3px solid red;}
+
+#textbox {
+    height: 35px;
+    width: 95%;
+    font-size: 15px;
+  }
+
+  .button-row {
+    width: 100%;
+  }
+
+
+.btn {
+  cursor: pointer;
+  font-size: 1.8rem;
+  width: 100%;
+  text-align:center;
+  border: 0.1rem solid black;
+  background-color: lightgrey;
+}
+#text-row {}
+

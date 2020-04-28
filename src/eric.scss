@@ -1,0 +1,47 @@
+html, body, #app {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#app {
+  background-color: grey;
+  // https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  > * {
+    margin: 6px 0;
+  }
+
+  #watch-face {
+
+  }
+
+  #input-time {
+
+  }
+
+  #buttons {
+
+  }
+}
+
+#watch-face {
+  height:4vh;
+  width:15vh;
+  background-color:white;
+}
+
+#title
+{
+  color: blue;
+}

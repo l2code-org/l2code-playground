@@ -1,0 +1,36 @@
+{
+  "name": "l2code-playground",
+  "version": "1.0.0",
+  "description": "A web playground",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/eric.html src/aiden.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l2code-org/l2code-playground.git"
+  },
+  "author": "parasrah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/l2code-org/l2code-playground/issues"
+  },
+  "homepage": "https://github.com/l2code-org/l2code-playground#readme",
+  "dependencies": {
+    "ramda": "^0.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
+  }
+}
