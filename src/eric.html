@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Playground</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='./eric.scss'>
-  <script src='./eric.js'></script>
+    <head>
+        <meta charset="utf-8">
+        <title>Eric's Timer</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='./eric.scss'>
+    </head>
+    <body>
+        <header>
+            <h1>Super Timer</h1>
+        </header>
+
+        <p id="message">Please enter a time in seconds</p>
+        
+
+        <div id="clockface">
+            <input type="number" id="display" min="0">
+        </div>
 
 
-</head>
-<body>
-  <div id="app">
-    <div id="watch">
-      <h1 id="title">Eric's Timer </h1>
-      <div id="watch-face"></div>
-      <div id="input-time">
-        <input type="number"></input>
-      </div>
-      <div id="buttons">
-        <button>Start</button>
-        <button>Pause</button>
-        <button>Add 1 Minute</button>
-      </div>
-    </div>
-  </div>
-</body>
+       <div id="button_section">
+            <div id="start_button" class="button_row">
+                 <button id="begin">Start</button>
+            </div>
+
+            <div id="additional_buttons" class="button_row  ">
+                <button id="pause" class="additional">Pause</button>
+                <button id="stop" class="additional">Stop</button>
+                <button id="add" class="additional">Add 1 Minute</button>
+            </div>
+        </div>
+    </body>
 </html>
