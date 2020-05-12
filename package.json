@@ -4,7 +4,7 @@
   "description": "A web playground",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel src/eric.html src/aiden.html",
+    "start": "parcel src/index.html",
     "test": "jest"
   },
   "repository": {
